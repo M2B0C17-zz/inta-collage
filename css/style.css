@@ -1,0 +1,5 @@
+body{
+	background-image: linear-gradient(to top, #E7913C 0%, #97ED8A 100%); /*gradients*/
+	width: 100vh;
+	height: 100vh;
+}
