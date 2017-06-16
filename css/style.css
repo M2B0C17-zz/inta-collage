@@ -1,6 +1,10 @@
+
+
+/*Código general*/
 *{
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 
 body{
@@ -10,7 +14,53 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+
+/*Para que los elementos se "compriman"*/
+.container {
+    max-width: 480px;
+    width: 100%;
+}
+
 /*Menú*/
 nav{
 	display: block;
+}
+
+/*Logo*/
+.logo{
+	filter: invert(100%);
+}
+
+/*Inputs*/
+input[placeholder] {
+	display: inline-block;
+	width: 91%;
+	color: green;
+}
+
+/*Footer*/
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 115%;
+    text-align: center;
+}
+
+select{
+	text-decoration: none;
+}
+
+.boton{
+	width: 69%;
 }
